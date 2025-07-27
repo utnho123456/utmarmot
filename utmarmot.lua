@@ -49,7 +49,7 @@ getgenv().gagConfig = {
     NOTIFY_PETS = { "Corrupted Kitsune", "Mizuchi", "Disco Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "T-Rex", "Spinosaurus", "Kitsune" },
     NOTIFY_PETS_WEIGHT = {},
     DISCORD_ID = "1344518159587348482",
-    WEBHOOK_NOTE = "happy",
+    WEBHOOK_NOTE = "ut",
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = true,
 }
