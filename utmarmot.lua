@@ -22,7 +22,7 @@ getgenv().gagConfig = {
     LIMIT_PLANT_SEED = { ["Zen Rocks"] = 3, ["Dezen"] = 3, ["Taro Flower"] = 3, ["Monoblooma"] = 3, ["Giant Pinecone"] = 10, ["Bell Pepper"] = 5, ["Ember Lily"] = 5, ["Beanstalk"] = 10, ["Feijoa"] = 5, ["Lucky Bamboo"] = 5, ["Loquat"] = 5, ["Prickly Pear"] = 5, ["Serenity"] = 5, ["Hinomai"] = 5, ["Strawberry"] = 5, ["Blueberry"] = 5, ["Orange Tulip"] = 10, ["Apple"] = 10, ["Tomato"] = 15, ["Corn"] = 10, ["Daffodil"] = 3, ["Bamboo"] = 5, ["Coconut"] = 5, ["Pumpkin"] = 10, ["Watermelon"] = 5, ["Cactus"] = 4, ["Dragon Fruit"] = 3, ["Mango"] = 3, ["Grape"] = 3, ["Mushroom"] = 5, ["Pepper"] = 5, ["Cacao"] = 3, ["Sugar Apple"] = 10 },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Mythical Egg", "Uncommon Egg" },
-    PLANT_EGGS = { "Gourmet Egg", "Corrupted Zen Egg", "Anti Bee Egg", "Bug Egg", "Paradise Egg", "Zen Egg", "Night Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
+    PLANT_EGGS = { "Gourmet Egg", "Zen Egg", "Corrupted Zen Egg", "Anti Bee Egg", "Bug Egg", "Paradise Egg", "Night Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
     
     -- BUY_SEED_SHOP Priority (Left -> Right)
     BUY_SEED_SHOP = { "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
