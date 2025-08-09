@@ -36,7 +36,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
     KEEP_PETS_AGE = { ["Starfish"] = 75 },
 
-    EQUIP_PETS = { "Corrupted Kodama", ["Rooster"] = 2,["Kodama"] = 4, ["Sunny-Side Chicken"] = 2, "Tanchozuru" },
+    EQUIP_PETS = { ["Tanchozuru"] = 5, ["Kodama"] = 3, ["Sunny-Side Chicken"] = 2 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },  -- Unequip from garden
 
