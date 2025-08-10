@@ -36,7 +36,8 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = {},
     KEEP_PETS_AGE = {},
 
-    EQUIP_PETS = { "Corrupted Kodama", ["Tanchozuru"] = 1, "Kodama", "Gorilla Chef" },
+    -- EQUIP_PETS Priority (Left -> Right)
+    EQUIP_PETS = { ["Gorilla Chef"] = 6, ["Capybara"] = 1, ["Starfish"] = 1, "Sushi Bear" },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
