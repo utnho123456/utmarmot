@@ -163,6 +163,7 @@ getgenv().ConfigsKaitun = {
 		Favorite_LockedPet = true,
 		Locked_Pet_Age = 76, -- pet that age > 60 will lock
 		Locked = {
+            "Spriggan",
             "Jackalope",
 			"Sapling",
 			"Golem",
@@ -235,7 +236,8 @@ getgenv().ConfigsKaitun = {
 				"Idk"
 			},
 			Pets = {
-				"French Fry Ferret",
+                "Golden Goose",				
+                "French Fry Ferret",
                 "Lobster Thermidor",
 				"Corrupted Kitsune",
 				"Kitsune",
