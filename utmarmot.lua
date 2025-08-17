@@ -7,9 +7,10 @@ getgenv().gagConfig = {
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     MAX_EVENT_RESTOCK_SHECKLES = 48_000_001,  -- Restock stop at 48m
     BUY_EVENT_SHOP = { "Sprout Egg", "Spriggan" },
+    PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     
     -- General:
-    AUTO_UPDATE_RESTART = false,
+    AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
@@ -30,13 +31,13 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-    KEEP_PETS = { "Golden Goose", "Spriggan", "Golem", "Spaghetti Sloth", "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Bear Bee", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Nihonzaru", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Kodama"] = 6, ["Corrupted Kodama"] = 6, ["Blood Kiwi"] = 2, ["Capybara"] = 3, ["Starfish"] = 2, ["Rooster"] = 2, ["Sunny-Side Chicken"] = 8, ["Tanchozuru"] = 5, ["Dairy Cow"] = 5, ["Sapllng"] = 5, ["Jackalope"] = 5 },
+    KEEP_PETS = { "Golden Goose", "Spriggan", "Golem", "Kodama", "Seedling",  "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Bear Bee", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Pack Bee", "Petal Bee", "Nihonzaru", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Firefly", "Chicken Zombie", ["Jackalope"] = 6, ["Corrupted Kodama"] = 6, ["Spaghetti Sloth"] = 5, ["Capybara"] = 1, ["Starfish"] = 2, ["Rooster"] = 2, ["Sunny-Side Chicken"] = 5, ["Tanchozuru"] = 5, ["Kappa"] = 5 },
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 90,
 
-    EQUIP_PETS = { ["Rooster"] = 1, ["Golem"] = 3, ["Seal"] =3 , ["Sunny-Side Chicken"] = 3 },
+    EQUIP_PETS = { ["Spriggan"] = 1, ["Jackalope"] = 4, ["Golem"] = 3, ["Sunny-Side Chicken"] = 2 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
-    REMOVE_PET_MAX_UPGRADE = { "Starfish" },
+    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket" },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
