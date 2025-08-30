@@ -1,14 +1,11 @@
 script_key="jIScVMtMfIkxjxMKBkSYCJnqPWilxcLu";
 setfpscap(2)
 
-script_key="jIScVMtMfIkxjxMKBkSYCJnqPWilxcLu";
-setfpscap(2)
-
 getgenv().gagConfig = {
     -- Event:
     CRAFT_EVENT = { "Anti Bee Egg" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
-    CLAIM_FAIRY_REWARD = { "Enchanted Egg", "FairyPoints", "Pet Shard Glimmering" },
+    CCLAIM_FAIRY_REWARD = { "Enchanted Egg", "FairyPoints", "Pet Shard Glimmering", "Mutation Spray Glimmering", "Glimmering Radar" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
     
@@ -195,11 +192,11 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-    KEEP_PETS = { "Cockatrice", "Imp", ["Glimmering Sprite"] = 8, "Tanchozuru", "Kappa", "Green Bean", "Apple Gazelle", "Gnome", "Griffin", "Golden Goose", "Spriggan", "Golem", "Kodama",  "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie", ["Jackalope"] = 5, ["Corrupted Kodama"] = 6, ["Spaghetti Sloth"] = 5, ["Capybara"] = 1, ["Starfish"] = 2, ["Rooster"] = 8, ["Sunny-Side Chicken"] = 5 },
+    KEEP_PETS = { "Cockatrice", "["Imp"] = 8, ["Glimmering Sprite"] = 8, "Tanchozuru", "Kappa", "Green Bean", "Apple Gazelle", "Gnome", "Griffin", "Golden Goose", "Spriggan", "Golem", "Kodama",  "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Bald Eagle", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Chicken Zombie", ["Jackalope"] = 2, ["Corrupted Kodama"] = 6, ["Spaghetti Sloth"] = 3, ["Capybara"] = 1, ["Starfish"] = 2, ["Rooster"] = 8, ["Sunny-Side Chicken"] = 5 },
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
 
-    EQUIP_PETS = { ["Rooster"] = 1, ["Glimmering Sprite"] = 6, ["Sunny-Side Chicken"] = 1 },
+    EQUIP_PETS = { ["Rooster"] = 2, ["Glimmering Sprite"] = 6, ["Sunny-Side Chicken"] = 2 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
 
