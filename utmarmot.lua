@@ -209,7 +209,6 @@ getgenv().ConfigsKaitun = {
 
  Eggs = {
   Place = {
-   "Zen Egg",
    "Anti Bee Egg",
    "Enchanted Egg",
    "Bug Egg",
@@ -283,8 +282,8 @@ getgenv().ConfigsKaitun = {
 
  Webhook = {
   UrlPet = "https://discord.com/api/webhooks/1364042319199731844/dmYoMRg_hJG5HW7M-P_fRMIA7cfU4XskBiCe4kUAwNzlQj4RK_UR28buN2yEIiP0vc-M",
-  UrlSeed = "xxx",
-  PcName = "xxx",
+  UrlSeed = "https://discord.com/api/webhooks/1364042319199731844/dmYoMRg_hJG5HW7M-P_fRMIA7cfU4XskBiCe4kUAwNzlQj4RK_UR28buN2yEIiP0vc-M",
+  PcName = "",
 
   Mention = "", -- discord id
 
