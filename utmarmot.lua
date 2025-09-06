@@ -8,7 +8,7 @@ getgenv().gagConfig = {
     BUY_EVENT_SHOP = {"Enchanted Chest", "Luminous Sprite", "Drake" },
     MAX_EVENT_RESTOCK_SHECKLES = 48000001,
     
-    CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "Glimmering Radar" "FairyPoints" },
+    CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "Glimmering Radar", "FairyPoints" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
     PLACE_COSMETIC = { "Cooking Kit" },
     
