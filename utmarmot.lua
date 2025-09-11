@@ -6,7 +6,7 @@ getgenv().gagConfig = {
     CRAFT_EVENT = { "Enchanted Chest", "Anti Bee Egg", "Mutation Spray Glimmering" },
     BUY_TRAVELING_MERCHANT = { "Bee Egg", "Paradise Egg", "Loquat", "Feijoa", "Pitcher Plant" },
     BUY_EVENT_SHOP = {"Enchanted Chest", "Luminous Sprite", "Drake" },
-    MAX_EVENT_RESTOCK_SHECKLES = 48000001,
+    MAX_EVENT_RESTOCK_SHECKLES = 13_000_000_000,
     
     CLAIM_FAIRY_REWARD = { "Mutation Spray Glimmering", "Enchanted Egg", "Enchanted Seed Pack", "Glimmering Radar", "FairyPoints" },
     PLANT_EVENT_TREES = true,  -- This config will replace most plant related config
@@ -199,9 +199,8 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 75,
 
-    EQUIP_PETS = { ["Rooster"] = 3, ["Glimmering Sprite"] = 6, ["Drake"] = 2 },
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
-    REMOVE_PET_MAX_UPGRADE = { "Capybara", "Starfish" },
+    EQUIP_PET_SHARD = { ["Glimmering Sprite"] = "Glimmering" },
+    EQUIP_PETS = { ["Glimmering Sprite"] = 8, ["Rooster"] = 8 },
 
     BUY_GEAR_SHOP = { "Grandmaster Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Trading Ticket", ["Harvest Tool"] = 10 },
     USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Grandmaster Sprinkler" },
