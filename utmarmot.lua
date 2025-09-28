@@ -190,7 +190,7 @@ getgenv().gagConfig = {
 },
     
     BUY_EGGS = { "Jungle Egg", "Anti Bee Egg", "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
-    PLANT_EGGS = { "Jungle Egg", "Anti Bee Egg", "Bug Egg", "Paradise Egg", "Zen Egg", "Fall Egg" },
+    PLANT_EGGS = { "Jungle Egg", "Anti Bee Egg", "Bug Egg", "Paradise Egg", "Zen Egg" },
     
     BUY_SEED_SHOP = { "Romanesco", "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", ["Coconut"] = 50, ["Bamboo"] = 50, ["Apple"] = 50, ["Pumpkin"] = 50, ["Watermelon"] = 50, ["Daffodil"] = 50, ["Corn"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
     KEEP_SEEDS = {},
