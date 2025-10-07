@@ -16,7 +16,7 @@ getgenv().pvbConfig = {
     KEEP_SEED = {},
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
     KEEP_BRAINROT_MONEY_PER_SECOND = 30000,  -- Number
-    KEEP_BRAINROT_RARITY = {"Secret"},
+    KEEP_BRAINROT_RARITY = {},
 
     SELL_BRAINROT_DELAY = 30,
     SELL_PLANT_DELAY = 30,
