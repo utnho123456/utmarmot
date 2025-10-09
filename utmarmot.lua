@@ -2,7 +2,7 @@ script_key="hmCevluaBalRaezvQCEwxeVNyTkfqFHO";
 
 getgenv().pvbConfig = {
     AUTO_UPDATE_RESTART = true,
-    MAX_FPS = 3,  -- This will override setfpscap()
+    MAX_FPS = 2,  -- This will override setfpscap()
     LOW_CPU = true,
     MAX_REBIRTH = 99,  -- Stop rebirth at set amount
     FORCE_REBIRTH_IGNORE_KEEP_BRAINROT = true,  -- Ignore KEEP_BRAINROT related config until max rebirth
@@ -32,6 +32,15 @@ getgenv().pvbConfig = {
     SHOW_PUBLIC_DISCORD_ID = true,
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = true,
+
+    -- Gifting
+    KICK_AFTER_GIFTED_ALL = true,
+    GIFT_USERNAME = {"QNQQSXJlLQY", "Anhthuj44l6f", "UzclrobWpYx", "kQenOzfrqdb", "Jonah98"},
+    GIFT_BRAINROT = {},
+    GIFT_BRAINROT_MONEY_PER_SECOND = 500000,
+    GIFT_PLANT = {"Mango"},
+    GIFT_PLANT_DAMAGE = 1000000,
+    GIFTING_COOLDOWN = 5,
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fb22292fbed43e6aeb163a93df81a968.lua"))()
