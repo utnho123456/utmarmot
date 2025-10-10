@@ -18,29 +18,20 @@ getgenv().pvbConfig = {
     KEEP_SEED = {},
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
     KEEP_BRAINROT_MONEY_PER_SECOND = 50000,  -- Number
-    KEEP_BRAINROT_RARITY = {"Secret"},
+    KEEP_BRAINROT_RARITY = {},
 
     SELL_BRAINROT_DELAY = 30,
     SELL_PLANT_DELAY = 30,
 
     -- Webhook
     BRAINROT_WEBHOOK_URL = "https://discord.com/api/webhooks/1364042319199731844/dmYoMRg_hJG5HW7M-P_fRMIA7cfU4XskBiCe4kUAwNzlQj4RK_UR28buN2yEIiP0vc-M",
-    DISCORD_ID = "1344518159587348482",
+    DISCORD_ID = "",
     NOTIFY_RARITY = {},
     NOTIFY_MONEY_PER_SECOND = 100000,
     WEBHOOK_NOTE = "",
     SHOW_PUBLIC_DISCORD_ID = true,
     SHOW_WEBHOOK_USERNAME = true,
     SHOW_WEBHOOK_JOBID = true,
-
-    -- Gifting
-    KICK_AFTER_GIFTED_ALL = true,
-    GIFT_USERNAME = {"QNQQSXJlLQY", "Anhthuj44l6f", "UzclrobWpYx", "kQenOzfrqdb", "Jonah98"},
-    GIFT_BRAINROT = {},
-    GIFT_BRAINROT_MONEY_PER_SECOND = 500000,
-    GIFT_PLANT = {"Mango"},
-    GIFT_PLANT_DAMAGE = 1000000,
-    GIFTING_COOLDOWN = 5,
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fb22292fbed43e6aeb163a93df81a968.lua"))()
