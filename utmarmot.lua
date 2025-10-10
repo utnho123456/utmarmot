@@ -17,7 +17,7 @@ getgenv().pvbConfig = {
     BUY_GEAR_SHOP = {"Frost Grenade", "Frost Blower"},
     KEEP_SEED = {},
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
-    KEEP_BRAINROT_MONEY_PER_SECOND = 50000,  -- Number
+    KEEP_BRAINROT_MONEY_PER_SECOND = 100000,  -- Number
     KEEP_BRAINROT_RARITY = {},
 
     SELL_BRAINROT_DELAY = 30,
