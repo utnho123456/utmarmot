@@ -11,14 +11,16 @@ getgenv().pvbConfig = {
     PLANT_SECRET_LIMITED_SEED_EVENT = {"Frozen", "Golden", "Rainbow", "Galactic", "Underworld", "UpsideDown", "Volcano"},
     
     OPEN_LUCKY_EGG = {"Godly Lucky Egg", "Secret Lucky Egg", "Meme Lucky Egg"},
+    OPEN_CARD_PACK = {"Base", "Shiny Base"},
     FUSE_PLANT = {"Mr Carrot", "Watermelon", "Eggplant", "Dragon Fruit", "Sunflower", "Pumpkin"},  -- Auto keep (favorite) & fuse required plant + brainrot
 
-    BUY_SEED_SHOP = {["Cactus"] = 5, ["Aubie"] = 5, ["Copuccino"] = 5, ["Sunzio"] = 5,  ["Strawberry"] = 5, ["Pumpkin"] = 5, ["Sunflower"] = 5, ["Dragon Fruit"] = 5, ["Eggplant"] = 5, ["Watermelon"] = 5, ["Cocotank"] = 5, ["Carnivorous Plant"] = 5, "Mr Carrot", "Tomatrio", "Shroombino", "Mango"},
+    BUY_SEED_SHOP = {["Cactus"] = 5, ["Aubie"] = 5, ["Copuccino"] = 5, ["Sunzio"] = 5,  ["Strawberry"] = 5, ["Pumpkin"] = 5, ["Sunflower"] = 5, ["Dragon Fruit"] = 5, ["Eggplant"] = 5, ["Watermelon"] = 5, ["Cocotank"] = 5, ["Carnivorous Plant"] = 5, "Mr Carrot", "Tomatrio", "Shroombino", "Mango", "King Limone"},
     BUY_GEAR_SHOP = {"Frost Grenade", "Frost Blower"},
     KEEP_SEED = {},
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
     KEEP_BRAINROT_MONEY_PER_SECOND = 100000,  -- Number
-    KEEP_BRAINROT_RARITY = {},
+    KEEP_BRAINROT = {"Los Tralaleritos", "Vacca Saturno Saturnita", "Dragon Camelon", "Crazylone Pizaione"},
+    KEEP_BRAINROT_RARITY = {""},
 
     SELL_BRAINROT_DELAY = 30,
     SELL_PLANT_DELAY = 30,
