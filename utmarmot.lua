@@ -229,7 +229,7 @@ DELETE_PLANTS_AFTER_MAX = {
     FAVOURITE_FRUIT_MUTATIONS = {},
     SKIP_HARVEST_MUTATIONS = {},
 
-    KEEP_PETS = { "Headless Horseman", "Reaper", "Fortune Squirrel", "Chinchilla", "Chubby Chipmunk", "Tiger", "Red Panda", "Barn Owl", "Swan", "Space Squirrel", "Sugar Glider", "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice", ["Glimmering Sprite"] = 8, "Gnome", "Griffin", "Golden Goose", "Spriggan", "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Ghostly", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Spaghetti Sloth", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Sunny-Side Chicken", "Chicken Zombie", ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 2, ["Rooster"] = 8, ["Chicken"] = 8 },
+    KEEP_PETS = { "Ghostly Headless Horseman", "Headless Horseman", "Reaper", "Fortune Squirrel", "Chinchilla", "Chubby Chipmunk", "Tiger", "Red Panda", "Barn Owl", "Swan", "Space Squirrel", "Sugar Glider", "Phoenix", "Drake", "Wisp", "Luminous Sprite", "Cockatrice", ["Glimmering Sprite"] = 8, "Gnome", "Griffin", "Golden Goose", "Spriggan", "Junkbot", "Gorilla Chef", "Lobster Thermidor", "French Fry Ferret", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Koi", "Ghostly", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Spaghetti Sloth", "Pack Bee", "Petal Bee", "Bear Bee", "Hamster", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Sunny-Side Chicken", "Chicken Zombie", ["Blood Kiwi"] = 2, ["Capybara"] = 1, ["Starfish"] = 2, ["Rooster"] = 8, ["Chicken"] = 8 },
     KEEP_PETS_WEIGHT = 7,
     KEEP_PETS_AGE = 90,
     
@@ -242,7 +242,7 @@ DELETE_PLANTS_AFTER_MAX = {
 
     PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1427232619929669693/eMs_h63iFj7aOadVNq1uDK7-OJH6SKwhU0pdfRj3G3qHDEinlZSkmWnVHUpYXqNF0UCq",
     SHOW_PUBLIC_DISCORD_ID = false,
-    NOTIFY_PETS = { "Headless Horseman", "Fortune Squirrel", "Chinchilla", "Tiger", "Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider", "Phoenix", "Cockatrice", "Gnome", "Griffin", "Golden Goose", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox" },
+    NOTIFY_PETS = { "Ghostly Headless Horseman", "Headless Horseman", "Fortune Squirrel", "Chinchilla", "Tiger", "Barn Owl", "Swan", "Marmot", "Space Squirrel", "Sugar Glider", "Phoenix", "Cockatrice", "Gnome", "Griffin", "Golden Goose", "Corrupted Kitsune", "Raiju", "Mizuchi", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox" },
     NOTIFY_PETS_WEIGHT = 7,
     DISCORD_ID = "1344518159587348482",
     WEBHOOK_NOTE = "",
