@@ -2,7 +2,7 @@ script_key="hmCevluaBalRaezvQCEwxeVNyTkfqFHO";
 
 getgenv().pvbConfig = {
     AUTO_UPDATE_RESTART = true,
-    MAX_FPS = 2,  -- This will override setfpscap()
+    MAX_FPS = 3,  -- This will override setfpscap()
     LOW_CPU = true,
     MAX_REBIRTH = 99,  -- Stop rebirth at set amount
     FORCE_REBIRTH_IGNORE_KEEP_BRAINROT = true,  -- Ignore KEEP_BRAINROT related config until max rebirth
@@ -14,7 +14,7 @@ getgenv().pvbConfig = {
     OPEN_CARD_PACK = {"Base", "Shiny Base"},
     MERGE_CARD_RARITY = {"Common", "Uncommon", "Rare", "Epic", "Legendary"},
     USE_PLANT_EXTRACTOR_RARITY = {"Common", "Uncommon", "Rare", "Epic", "Legendary"},
-    FUSE_PLANT = {"Watermelon", "Eggplant", "Dragon Fruit", "Sunflower", "Pumpkin"},  -- Auto keep (favorite) & fuse required plant + brainrot
+    FUSE_PLANT = {"Mr Carrot", "Watermelon", "Eggplant", "Dragon Fruit", "Sunflower", "Pumpkin"},  -- Auto keep (favorite) & fuse required plant + brainrot
 
     BUY_SEED_SHOP = {["Cactus"] = 5, ["Aubie"] = 5, ["Copuccino"] = 5, ["Sunzio"] = 5,  ["Strawberry"] = 5, ["Pumpkin"] = 5, ["Sunflower"] = 5, ["Dragon Fruit"] = 5, ["Eggplant"] = 5, ["Watermelon"] = 5, ["Cocotank"] = 5, ["Carnivorous Plant"] = 5, "Mr Carrot", "Tomatrio", "Shroombino", "Mango", "King Limone"},
     BUY_GEAR_SHOP = {"Frost Grenade", "Frost Blower"},
@@ -30,7 +30,7 @@ getgenv().pvbConfig = {
     BRAINROT_WEBHOOK_URL = "",
     DISCORD_ID = "",
     NOTIFY_RARITY = {},
-    NOTIFY_MONEY_PER_SECOND = 10000,
+    NOTIFY_MONEY_PER_SECOND = 1000000,
     WEBHOOK_NOTE = "",
     SHOW_PUBLIC_DISCORD_ID = true,
     SHOW_WEBHOOK_USERNAME = true,
