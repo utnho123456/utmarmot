@@ -2,7 +2,7 @@ script_key="hpTaQrrJVDeuXyydxoSZaWoqASoOmjap";
 
 getgenv().pvbConfig = {
     AUTO_UPDATE_RESTART = true,
-    MAX_FPS = 3,  -- This will override setfpscap()
+    MAX_FPS = 2,  -- This will override setfpscap()
     LOW_CPU = true,
     MAX_REBIRTH = 99,  -- Stop rebirth at set amount
     FORCE_REBIRTH_IGNORE_KEEP_BRAINROT = true,  -- Ignore KEEP_BRAINROT related config until max rebirth
@@ -22,6 +22,7 @@ getgenv().pvbConfig = {
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
     KEEP_BRAINROT_MONEY_PER_SECOND = 500000,
     KEEP_BRAINROT_RARITY = {},
+    KEEP_BRAINROT = {"Crazylone Pizaione","Los Mr Carrotitos","Los Sekolitos","La Tomatoro","Los Tralaleritos"},
 
     SELL_BRAINROT_DELAY = 30,
     SELL_PLANT_DELAY = 30,
