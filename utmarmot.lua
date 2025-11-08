@@ -14,7 +14,7 @@ getgenv().pvbConfig = {
     OPEN_CARD_PACK = {"Base", "Shiny Base", "Halloween"},
     MERGE_CARD_RARITY = {"Common", "Uncommon", "Rare", "Epic", "Legendary"},
     USE_PLANT_EXTRACTOR_RARITY = {"Common", "Uncommon", "Rare", "Epic", "Legendary"},
-    FUSE_PLANT = {"Mr Carrot", "Watermelon", "Eggplant", "Dragon Fruit", "Sunflower", "Pumpkin"},  -- Auto keep (favorite) & fuse required plant + brainrot
+    FUSE_PLANT = {"Watermelon", "Eggplant", "Dragon Fruit", "Sunflower", "Pumpkin"},  -- Auto keep (favorite) & fuse required plant + brainrot
     MERGE_MUTATION_NAME = {},
 
     BUY_SEED_SHOP = {["Cactus"] = 5, ["Aubie"] = 5, ["Tomade Torelli"] = 5, ["Grape"] = 5, ["Copuccino"] = 5, ["Sunzio"] = 5,  ["Strawberry"] = 5, ["Pumpkin"] = 5, ["Sunflower"] = 5, ["Dragon Fruit"] = 5, ["Eggplant"] = 5, ["Watermelon"] = 5, ["Cocotank"] = 5, ["Carnivorous Plant"] = 5, "Mr Carrot", "Tomatrio", "Shroombino", "Mango", "King Limone", "Starfruit"},
