@@ -102,6 +102,6 @@ _G.FishItConfig = _G.FishItConfig or {
     ["AutoReconnect"] = true,
     ["HideGUI"] = false,
 }
-script_key="D4I2-1KBL-LFP0-N1O8";
+script_key="E934DA43917BBF9FF3B0877EF1D68599";
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua"))()
