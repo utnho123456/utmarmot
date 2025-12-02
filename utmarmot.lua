@@ -1,42 +1,107 @@
-script_key="KuWflMRzMZOxYfxiPEEBspiUMvtsloOX";
+_G.FishItConfig = _G.FishItConfig or {
+    ["Fishing"] = {
+        ["Auto Perfect"] = true,
+        ["Auto Favorite"] = false,
+        ["Fish Name"] = {
+            "Gar Fish",
+        },
+    },
+    ["Auto Trade"] = {
+        ["Enabled"] = false,
+        ["Whitelist Username"] = {""},
+        ["Category Fish"] = { -- Only Select one, fill in the fish category or fish name
+            "Secret",
+        },
+        ["Fish Name"] = {
+        },
+    },
+    ["Farm Coin Only"] = {
+        ["Enabled"] = false, -- Farm coins only [ cant buy rod, bait, enchant, weather ]
+        ["Target"] = 190000,
+    },
+    ["Selling"] = {
+        ["Auto Sell"] = true,
+        ["Auto Sell Threshold"] = "Legendary",
+        ["Auto Sell Every"] = 100,
+    },
+    ["Doing Quest"] = {
+        ["Auto Ghostfinn Rod"] = true,
+        ["Auto Element Rod"] = false,
+        ["Allowed Sacrifice"] = {
+            "Blob Shark",
+            "Ghost Shark",
+        },
+        ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
 
-getgenv().pvbConfig = {  
-    AUTO_UPDATE_RESTART = true,
-    MAX_FPS = 2,  -- This will override setfpscap()
-    LOW_CPU = true,
-    MAX_REBIRTH = 99,  -- Stop rebirth at set amount
-    USE_XP_BOTTLE = false,  -- Use XP Bottle on highest damage plant
-    FROST_GRENADE_TARGET_MAX_HP = 100000,  -- Use frost grenade 100k+ hp brainrot
-    CONSUME_POTION_EVENT = {"Frozen", "Golden", "Rainbow", "Galactic", "Underworld", "UpsideDown", "Volcano"},
-    PLANT_SECRET_LIMITED_SEED_EVENT = {"Frozen", "Golden", "Rainbow", "Galactic", "Underworld", "UpsideDown", "Volcano"},
-    
-    OPEN_LUCKY_EGG = {"Godly Lucky Egg", "Secret Lucky Egg", "Meme Lucky Egg"},
-    OPEN_CARD_PACK = {"Base", "Shiny Base", "Halloween"},
-    MERGE_CARD_RARITY = {"Common", "Uncommon", "Rare", "Epic", "Legendary"},
-    USE_PLANT_EXTRACTOR_RARITY = {"Common", "Uncommon", "Rare", "Epic", "Legendary"},
-    FUSE_PLANT = {"Watermelon", "Eggplant", "Dragon Fruit", "Sunflower", "Pumpkin"},  -- Auto keep (favorite) & fuse required plant + brainrot
-    MERGE_MUTATION_NAME = {},
+        ["Minimum Rod"] = "Astral Rod",
+    },
+    ["WebHook"] = {
+        ["Link Webhook"] = "https://discord.com/api/webhooks/1364042319199731844/dmYoMRg_hJG5HW7M-P_fRMIA7cfU4XskBiCe4kUAwNzlQj4RK_UR28buN2yEIiP0vc-M",
+        ["Auto Sending"] = false,
+        ["Category"] = {"Secret"},
 
-    BUY_SEED_SHOP = {["Cactus"] = 5, ["Aubie"] = 5, ["Tomade Torelli"] = 5, ["Grape"] = 5, ["Copuccino"] = 5, ["Sunzio"] = 5,  ["Strawberry"] = 5, ["Pumpkin"] = 5, ["Sunflower"] = 5, ["Dragon Fruit"] = 5, ["Eggplant"] = 5, ["Watermelon"] = 5, ["Cocotank"] = 5, ["Carnivorous Plant"] = 5, "Mr Carrot", "Tomatrio", "Shroombino", "Mango", "King Limone", "Starfruit"},
-    BUY_GEAR_SHOP = {"Frost Grenade", "Frost Blower"},
-    KEEP_SEED = {},
-    KEEP_PLANT_RARITY = {"Secret", "Limited"},
-    KEEP_BRAINROT_MONEY_PER_SECOND = 1000000,
-    KEEP_BRAINROT_RARITY = {},
-    KEEP_BRAINROT = {},
+        ["Link Webhook Quest Complete"] = "",
+    },
+    ["Weather"] = {
+        ["Auto Buying"] = false,
+        ["Minimum Rod"] = "Astral Rod",
+        ["Weather List"] = {
+            "Wind",
+        },
+    },
+    ["Event"] = {
+        ["Start Farm"] = false,
+        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Event List"] = {
+            "Megalodon Hunt",
+            "Ghost Shark Hunt",
+            "Shark Hunt",
+        },
+    },
+    ["Enchant"] = {
+        ["Auto Enchant"] = true,
+        ["Roll Enchant"] = false, -- Roll enchant until get Leprechaun II
+        ["Minimum Rod"] = "Astral Rod",
+        ["Enchant List"] = {
+            "Leprechaun II",
+            "Mutation Hunter II",
+            "Prismatic I",
+        },
+    },
+    ["Bait List"] = {
+        ["Auto Buying"] = true,
+        ["Buy List"] = {
+            "Midnight Bait",
+            "Chroma Bait",
+            "Corrupt Bait",
+            "Aether Bait",
+        },
+    },
+    ["Rod List"] = {
+        ["Auto Buying"] = true,
+        ["Buy List"] = {
+            "Grass Rod",
+            "Midnight Rod",
+            "Astral Rod",
+            "Ares Rod",
+            "Angler Rod",
+        },
+        ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location
+            ["Fisherman Island"] = {"Starter Rod"},
+            ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
+            ["Tropical Grove"] = {"Astral Rod"},
+            ["Crater Island"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+        },
+    },
 
-    SELL_BRAINROT_DELAY = 30,
-    SELL_PLANT_DELAY = 30,
+    ["ExtremeFpsBoost"] = true,
+    ["UltimatePerformance"] = false,
+    ["Disable3DRender"] = true,
+    ["AutoRemovePlayer"] = true,
 
-    -- Webhook
-    BRAINROT_WEBHOOK_URL = "",
-    DISCORD_ID = "",
-    NOTIFY_RARITY = {},
-    NOTIFY_MONEY_PER_SECOND = 10000,
-    WEBHOOK_NOTE = "",
-    SHOW_PUBLIC_DISCORD_ID = true,
-    SHOW_WEBHOOK_USERNAME = true,
-    SHOW_WEBHOOK_JOBID = true,
+    ["AutoReconnect"] = true,
+    ["HideGUI"] = false,
 }
+script_key="E934DA43917BBF9FF3B0877EF1D68599";
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fb22292fbed43e6aeb163a93df81a968.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua"))()
