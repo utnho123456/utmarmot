@@ -1,10 +1,6 @@
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
         ["Auto Perfect"] = true,
-        ["Auto Favorite"] = false,
-        ["Fish Name"] = {
-            "Gar Fish",
-        },
     },
     ["Auto Trade"] = {
         ["Enabled"] = false,
@@ -29,22 +25,24 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Element Rod"] = false,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
+            "Thin Armor Shark",
             "Ghost Shark",
+            "Cryoshade Glider",
         },
         ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
 
         ["Minimum Rod"] = "Astral Rod",
     },
     ["WebHook"] = {
-        ["Link Webhook"] = "",
-        ["Auto Sending"] = false,
+        ["Link Webhook"] = "https://discord.com/api/webhooks/1427232619929669693/eMs_h63iFj7aOadVNq1uDK7-OJH6SKwhU0pdfRj3G3qHDEinlZSkmWnVHUpYXqNF0UCq",
+        ["Auto Sending"] = true,
         ["Category"] = {"Secret"},
 
-        ["Link Webhook Quest Complete"] = "",
+        ["Link Webhook Quest Complete"] = "https://discord.com/api/webhooks/1363456838980599960/XDP2lYBCBlMYfIYTIix0QZ1BotZfrXi6ZROZ9dHMb-L0XRdH8pSd0NlYozCRL51eSGJ6",
     },
     ["Weather"] = {
-        ["Auto Buying"] = false,
-        ["Minimum Rod"] = "Astral Rod",
+        ["Auto Buying"] = true,
+        ["Minimum Rod"] = "Ghostfinn Rod",
         ["Weather List"] = {
             "Wind",
         },
@@ -75,6 +73,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Chroma Bait",
             "Corrupt Bait",
             "Aether Bait",
+        "Singularity Bait",
         },
     },
     ["Rod List"] = {
@@ -87,21 +86,19 @@ _G.FishItConfig = _G.FishItConfig or {
             "Angler Rod",
         },
         ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location
-            ["Fisherman Island"] = {"Starter Rod"},
+            ["Fisherman Island"] = {"Starter Rod"}, -- Do not change
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Crater Island"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+        ["Ocean"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
     },
 
     ["ExtremeFpsBoost"] = true,
-    ["UltimatePerformance"] = false,
+    ["UltimatePerformance"] = true,
     ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = true,
-
     ["AutoReconnect"] = true,
-    ["HideGUI"] = false,
+    ["Debug"] = true,
 }
 script_key="E934DA43917BBF9FF3B0877EF1D68599";
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/FnDXueyi/roblog/refs/heads/main/fishit-78c86024ea87c8eca577549807421962.lua"))()
