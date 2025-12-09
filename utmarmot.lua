@@ -52,6 +52,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             "Megalodon Hunt",
+            "Strawberry Choc Megalodon Hunt",
             "Ghost Shark Hunt",
             "Shark Hunt",
         },
