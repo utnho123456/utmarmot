@@ -1,6 +1,11 @@
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
         ["Auto Perfect"] = true,
+        ["Auto Favorite"] = false,
+        ["Fish Name"] = {
+            "Gar Fish",
+        },
+        ["Auto Accept Trade"] = true,
     },
     ["Auto Trade"] = {
         ["Enabled"] = false,
@@ -18,16 +23,14 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Selling"] = {
         ["Auto Sell"] = true,
         ["Auto Sell Threshold"] = "Legendary",
-        ["Auto Sell Every"] = 500,
+        ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
         ["Auto Element Rod"] = false,
         ["Allowed Sacrifice"] = {
             "Blob Shark",
-            "Thin Armor Shark",
             "Ghost Shark",
-            "Cryoshade Glider",
         },
         ["FARM_LOC_SECRET_SACRIFICE"] = "Ocean",
 
@@ -44,8 +47,14 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Buying"] = true,
         ["Minimum Rod"] = "Astral Rod",
         ["Weather List"] = {
+            "Shark Hunrk",
+            "Storm", 
             "Wind",
         },
+    },
+    ["Potions"] = {
+        ["Auto Use"] = true,
+        ["Minimum Rod"] = "Astral Rod",
     },
     ["Event"] = {
         ["Start Farm"] = true,
@@ -58,13 +67,23 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Enchant"] = {
         ["Auto Enchant"] = true,
-        ["Roll Enchant"] = false, -- Roll enchant until get Leprechaun II
-        ["Minimum Rod"] = "Astral Rod",
+        ["Roll Enchant"] = true,
         ["Enchant List"] = {
             "Leprechaun II",
             "Mutation Hunter II",
             "Prismatic I",
         },
+        ["Second Enchant"] = false,
+        ["Allowed Sacrifice"] = {
+            "Blob Shark",
+            "Cryoshade Glider",
+        },
+        ["Second Enchant List"] = {
+            "Reeler I",
+            "Prismatic I",
+            "Mutation Hunter II",
+        },
+        ["Minimum Rod"] = "Ghostfinn Rod",
     },
     ["Bait List"] = {
         ["Auto Buying"] = true,
@@ -84,12 +103,13 @@ _G.FishItConfig = _G.FishItConfig or {
             "Astral Rod",
             "Ares Rod",
             "Angler Rod",
+            "Ghostfinn Rod",
         },
         ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
-            ["Crater Island"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
+            ["Esoteric Depths"] = {"Element Rod", "Ghostfinn Rod", "Angler Rod", "Ares Rod"},
         },
     },
 
@@ -98,8 +118,9 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = true,
 
-    ["AutoReconnect"] = true,
+    ["AutoReconnect"] = false,
     ["HideGUI"] = false,
+    ["EXIT_MAP_IF_DISCONNECT"] = true,
 }
 script_key="E934DA43917BBF9FF3B0877EF1D68599";
 
