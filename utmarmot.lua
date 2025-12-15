@@ -26,4 +26,4 @@ task.spawn(function()
     end
 end)
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8e7c89050d8f703ed98b1f594b515d22.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/493f6c6b0b036f044d46ffb43292b15e.lua"))()
