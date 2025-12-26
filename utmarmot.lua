@@ -1,7 +1,7 @@
 script_key = "VhGFIwqBLbitiaIrqeWUJybfRcXlsFUr"
 getgenv().Config = {
     LOCK_FPS = 3, -- Only work in Web Version
-    FARM_MODE = "Gifts", -- BattlePass / Crate / Gifts
+    FARM_MODE = "Crate", -- BattlePass / Crate / Gifts
     AUTO_RESTART_WHEN_UPDATE = true,
     HOP_WHEN_COIN_EARNED_LOWER = 250,
     TIME_TO_CHECK_COIN_EARNED = 1800,
