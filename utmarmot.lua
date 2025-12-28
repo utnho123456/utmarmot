@@ -45,7 +45,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Link Webhook Quest Complete"] = "",
     },
     ["Weather"] = {
-        ["Auto Buying"] = false,
+        ["Auto Buying"] = true,
         ["Minimum Rod"] = "Astral Rod",
         ["Weather List"] = {
             "Wind",
