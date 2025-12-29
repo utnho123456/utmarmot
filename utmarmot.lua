@@ -77,7 +77,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Enchant"] = {
         ["Auto Enchant"] = true,
-        ["Roll Enchant"] = false,
+        ["Roll Enchant"] = true,
         ["Enchant List"] = {
             "Leprechaun II",
             "Mutation Hunter II",
