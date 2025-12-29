@@ -10,7 +10,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Auto Trade"] = {
         ["Enabled"] = false,
         ["Whitelist Username"] = {""},
-        ["Category Fish"] = { -- Only Select one, fill in the fish category or fish name
+        ["Category Fish"] = { -- Only Select one, fill in the Category Fish or Fish Name
             "Secret",
         },
         ["Fish Name"] = {
@@ -23,7 +23,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Selling"] = {
         ["Auto Sell"] = true,
         ["Auto Sell Threshold"] = "Legendary",
-        ["Auto Sell Every"] = 500,
+        ["Auto Sell Every"] = 100,
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
@@ -55,11 +55,21 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Astral Rod",
     },
+    ["Totems"] = {
+        ["Auto Use"] = true,
+        ["Minimum Rod"] = "Ghostfinn Rod",
+        ["Buy List"] = {
+            "Luck Totem",
+            "Mutation Totem",
+            "Shiny Totem",
+        },
+    },
     ["Event"] = {
         ["Start Farm"] = true,
         ["Minimum Rod"] = "Ghostfinn Rod",
         ["Event List"] = {
             ["Christmas Cave"] = true,
+            ["Hacker Event"] = true,
             "Megalodon Hunt",
             "Ghost Shark Hunt",
             "Shark Hunt",
@@ -67,7 +77,7 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Enchant"] = {
         ["Auto Enchant"] = true,
-        ["Roll Enchant"] = true,
+        ["Roll Enchant"] = false,
         ["Enchant List"] = {
             "Leprechaun II",
             "Mutation Hunter II",
@@ -103,7 +113,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Ares Rod",
             "Angler Rod",
         },
-        ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location
+        ["Location Rods"] = {
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
@@ -113,13 +123,13 @@ _G.FishItConfig = _G.FishItConfig or {
 
     ["ExtremeFpsBoost"] = true,
     ["UltimatePerformance"] = false,
-    ["Disable3DRender"] = true,
+    ["Disable3DRender"] = false,
     ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = true,
     ["HideGUI"] = false,
     ["Debug"] = false,
-    ["EXIT_MAP_IF_DISCONNECT"] = true,
+    ["EXIT_MAP_IF_DISCONNECT"] = false,
 }
 script_key="E934DA43917BBF9FF3B0877EF1D68599";
 
