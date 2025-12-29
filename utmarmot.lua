@@ -10,7 +10,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Auto Trade"] = {
         ["Enabled"] = false,
         ["Whitelist Username"] = {""},
-        ["Category Fish"] = { -- Only Select one, fill in the Category Fish or Fish Name
+        ["Category Fish"] = { -- Only Select one, fill in the fish category or fish name
             "Secret",
         },
         ["Fish Name"] = {
@@ -23,7 +23,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Selling"] = {
         ["Auto Sell"] = true,
         ["Auto Sell Threshold"] = "Legendary",
-        ["Auto Sell Every"] = 100,
+        ["Auto Sell Every"] = 500,
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
@@ -54,15 +54,6 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Potions"] = {
         ["Auto Use"] = true,
         ["Minimum Rod"] = "Astral Rod",
-    },
-    ["Totems"] = {
-        ["Auto Use"] = true,
-        ["Minimum Rod"] = "Ghostfinn Rod",
-        ["Buy List"] = {
-            "Luck Totem",
-            "Mutation Totem",
-            "Shiny Totem",
-        },
     },
     ["Event"] = {
         ["Start Farm"] = true,
@@ -113,7 +104,7 @@ _G.FishItConfig = _G.FishItConfig or {
             "Ares Rod",
             "Angler Rod",
         },
-        ["Location Rods"] = {
+        ["Location Rods"] = { -- Farm location and minimum rod to start on that location, also only 1 rod and only 1 location
             ["Fisherman Island"] = {"Starter Rod"},
             ["Kohana Volcano"] = {"Grass Rod", "Midnight Rod"},
             ["Tropical Grove"] = {"Astral Rod"},
@@ -123,13 +114,13 @@ _G.FishItConfig = _G.FishItConfig or {
 
     ["ExtremeFpsBoost"] = true,
     ["UltimatePerformance"] = false,
-    ["Disable3DRender"] = false,
+    ["Disable3DRender"] = true,
     ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = true,
     ["HideGUI"] = false,
     ["Debug"] = false,
-    ["EXIT_MAP_IF_DISCONNECT"] = false,
+    ["EXIT_MAP_IF_DISCONNECT"] = true,
 }
 script_key="E934DA43917BBF9FF3B0877EF1D68599";
 
