@@ -1,7 +1,7 @@
 script_key = "lPhYBZZhbrTJNNkwEIiXpDPetDxxkuRd"
 getgenv().Config = {
     LOCK_FPS = 3, -- Only work in Web Version
-    FARM_MODE = "Gifts", -- BattlePass / Crate / Gifts / Multi
+    FARM_MODE = "Crate", -- BattlePass / Crate / Gifts / Multi
     LIST_FARM_MODE = {}, -- If FARM_MODE = Multi
     STOP_MULTI_FARM_MODE_IF_FULL_TIER_AND_CAN_BUY_REWARD = false,
     AUTO_RESTART_WHEN_UPDATE = true,
