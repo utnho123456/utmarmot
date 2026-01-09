@@ -1,6 +1,6 @@
 _G.FishItConfig = _G.FishItConfig or {
     ["Fishing"] = {
-        ["Auto Perfect"] = true,
+        ["Auto Perfect"] = false,
         ["Auto Favorite"] = true,
         ["Fish Name"] = {
             "Sacred Guardian Squid",
@@ -28,7 +28,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Selling"] = {
         ["Auto Sell"] = true,
         ["Auto Sell Threshold"] = "Legendary",
-        ["Auto Sell Every"] = 300,
+        ["Auto Sell Every"] = 200,
     },
     ["Doing Quest"] = {
         ["Auto Ghostfinn Rod"] = true,
@@ -50,7 +50,7 @@ _G.FishItConfig = _G.FishItConfig or {
         ["Link Webhook Quest Complete"] = "",
     },
     ["Weather"] = {
-        ["Auto Buying"] = true,
+        ["Auto Buying"] = false,
         ["Minimum Rod"] = "Astral Rod",
         ["Weather List"] = {
             "Wind",
@@ -82,11 +82,13 @@ _G.FishItConfig = _G.FishItConfig or {
     },
     ["Enchant"] = {
         ["Auto Enchant"] = true,
-        ["Roll Enchant"] = true, -- true = Roll until get TOP 1 enchant only (first in list)
+        ["Roll Enchant"] = false, -- true = Roll until get TOP 1 enchant only (first in list)
         ["Evolved Roll Enchant"] = true, -- true = Roll Evolved Stone until get ANY evolved-only enchant from list, then fallback to regular stone
         ["Enchant List"] = {
             "SECRET Hunter",
+            "Shark Hunter",
             "Mutation Hunter III",
+            "Leprechaun II",
             "Mutation Hunter II",
             "Prismatic I",
         },
@@ -105,6 +107,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["Bait List"] = {
         ["Auto Buying"] = true,
         ["Buy List"] = {
+            "Midnight Bait",
             "Chroma Bait",
             "Corrupt Bait",
             "Aether Bait",
@@ -130,7 +133,7 @@ _G.FishItConfig = _G.FishItConfig or {
     ["ExtremeFpsBoost"] = true,
     ["UltimatePerformance"] = false,
     ["Disable3DRender"] = false,
-    ["AutoRemovePlayer"] = false,
+    ["AutoRemovePlayer"] = true,
 
     ["AutoReconnect"] = true,
     ["HideGUI"] = false,
