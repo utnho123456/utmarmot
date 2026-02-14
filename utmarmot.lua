@@ -7,7 +7,19 @@ getgenv().Config = {
     TIME_TO_CHECK_COIN_EARNED = 1800,
     DISPLAY_UI = true,
     WEBHOOK_URL = "https://discord.com/api/webhooks/1427232619929669693/eMs_h63iFj7aOadVNq1uDK7-OJH6SKwhU0pdfRj3G3qHDEinlZSkmWnVHUpYXqNF0UCq",
-    WEBHOOK_NOTE = ""
+    WEBHOOK_NOTE = "",
+    AUTO_CHANGE = { -- Auto change when account cant farm valentines coins
+        YUMMY_TOOL = {
+            ENABLED = false,
+            NAME_FILE = "done" -- if u want file name is "done.txt" just write "done"
+        },
+        FARM_SYNC = {
+            ENABLED = false,
+            FOLDER_FROM = "",
+            FOLDER_TO = "",
+            CHANGE_WITHOUT_REPLACE = false -- true / false
+        }
+    }
 }
 
 task.spawn(function()
@@ -25,4 +37,4 @@ task.spawn(function()
     end
 end)
 
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/0e38c9f962f6e016372a764db6595b22.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/8b381051c5e99846fe64dcea7d597e49.lua"))()
