@@ -6,7 +6,7 @@ getgenv().Config = {
     HOP_WHEN_COIN_EARNED_LOWER = 250,
     TIME_TO_CHECK_COIN_EARNED = 1800,
     DISPLAY_UI = true,
-    WEBHOOK_URL = "",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1427232619929669693/eMs_h63iFj7aOadVNq1uDK7-OJH6SKwhU0pdfRj3G3qHDEinlZSkmWnVHUpYXqNF0UCq",
     WEBHOOK_NOTE = ""
 }
 
