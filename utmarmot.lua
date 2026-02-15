@@ -9,14 +9,21 @@ getgenv().Config = {
     WEBHOOK_URL = "https://discord.com/api/webhooks/1427232619929669693/eMs_h63iFj7aOadVNq1uDK7-OJH6SKwhU0pdfRj3G3qHDEinlZSkmWnVHUpYXqNF0UCq",
     WEBHOOK_NOTE = "",
     AUTO_CHANGE = { -- Auto change when account cant farm valentines coins
+        WAIT_UNTIL_LEVEL_10_WHEN_HAVE_GODLY_ITEMS = true, -- If account have godly items, wait until level 10 to change [because level 10 is required to trade items]
+        TIME_TO_CHANGE = 60, -- Time to change after meet condition
         YUMMY_TOOL = {
-            ENABLED = true,
-            NAME_FILE = "done" -- if u want file name is "done.txt" just write "done"
+            ENABLED = true
         },
         FARM_SYNC = {
             ENABLED = false,
-            FOLDER_FROM = "",
-            FOLDER_TO = "",
+            HAVE_GODLY = { -- folder change when have godly items
+                FOLDER_FROM = "have_godly_folder_id_from",
+                FOLDER_TO = "have_godly_folder_id_to",
+            },
+            NO_GODLY = { -- folder change when no godly items
+                FOLDER_FROM = "no_godly_folder_id_from",
+                FOLDER_TO = "no_godly_folder_id_to",
+            },
             CHANGE_WITHOUT_REPLACE = false -- true / false
         }
     }
