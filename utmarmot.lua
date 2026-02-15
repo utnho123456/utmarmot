@@ -10,7 +10,7 @@ getgenv().Config = {
     WEBHOOK_NOTE = "",
     AUTO_CHANGE = { -- Auto change when account cant farm valentines coins
         YUMMY_TOOL = {
-            ENABLED = false,
+            ENABLED = true,
             NAME_FILE = "done" -- if u want file name is "done.txt" just write "done"
         },
         FARM_SYNC = {
