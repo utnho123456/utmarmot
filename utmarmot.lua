@@ -1,4 +1,4 @@
-script_key = "lPhYBZZhbrTJNNkwEIiXpDPetDxxkuRd"
+script_key = "eqGWMrpcdLmovHGYkDDQOanjLtCsBoPy"
 getgenv().Config = {
     LOCK_FPS = 3, -- Only work in Web Version
     FARM_MODE = "Crate", -- Crate Only
