@@ -1,4 +1,4 @@
-script_key = "eqGWMrpcdLmovHGYkDDQOanjLtCsBoPy"
+script_key = "KwNYrCvahAUFKwgJnMcdcJwZIYnVlpLw"
 getgenv().Config = {
     LOCK_FPS = 3, -- Only work in Web Version
     FARM_MODE = "Crate", -- Crate Only
@@ -6,7 +6,7 @@ getgenv().Config = {
     HOP_WHEN_COIN_EARNED_LOWER = 250,
     TIME_TO_CHECK_COIN_EARNED = 1800,
     DISPLAY_UI = true,
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1427232619929669693/eMs_h63iFj7aOadVNq1uDK7-OJH6SKwhU0pdfRj3G3qHDEinlZSkmWnVHUpYXqNF0UCq",
+    WEBHOOK_URL = "",
     WEBHOOK_NOTE = "",
     AUTO_CHANGE = { -- Auto change when account cant farm valentines coins
         WAIT_UNTIL_LEVEL_10_WHEN_HAVE_GODLY_ITEMS = true, -- If account have godly items, wait until level 10 to change [because level 10 is required to trade items]
