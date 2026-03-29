@@ -12,7 +12,7 @@ getgenv().Config = {
         WAIT_UNTIL_LEVEL_10_WHEN_HAVE_GODLY_ITEMS = true, -- If account have godly items, wait until level 10 to change [because level 10 is required to trade items]
         TIME_TO_CHANGE = 60, -- Time to change after meet condition
         YUMMY_TOOL = {
-            ENABLED = false
+            ENABLED = true
         },
         MOUSE_TOOL = {
             ENABLED = false
