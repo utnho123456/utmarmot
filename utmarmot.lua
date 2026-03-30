@@ -14,9 +14,6 @@ getgenv().Config = {
         YUMMY_TOOL = {
             ENABLED = true
         },
-        MOUSE_TOOL = {
-            ENABLED = false
-        },
         FARM_SYNC = {
             ENABLED = false,
             HAVE_GODLY = { -- folder change when have godly items
