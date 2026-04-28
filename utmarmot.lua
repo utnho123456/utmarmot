@@ -9,7 +9,7 @@ task.spawn(function()
 end)
 spawn(function()
     _G.Config = { 
-        UserID = "",
+        UserID = "1517a8a4-d782-474d-ad9d-b23edfcb4f25",
         discord_id = "1344518159587348482" ,
         Note = "PC", } 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/yummytrack/main/tracker"))()
