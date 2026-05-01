@@ -1,40 +1,24 @@
-key = "hoangtuanhoangtu3_2";
-getgenv().CONFIG = {
-    ITEMS_TO_MAIL = {
-        ["Pet"] = {
-            ["All Huges"] = {MaxMailCost = 100_000},
+script_key = "XTUhpiQBCymyHQHilFaMuEbxHGxDPcPV"
+getgenv().Config = {
+    TargetStand = {"Tusk"},
+    AutoChange = { -- Only one can be set to true.
+        Yummy = {
+            Enabled = true,
+            FilterAcc = true, -- Like Tusk Account only stack on Tusk File
         },
-
-        ["Misc"] = {
-            ["MVP Key Lower Half"] = {MinSend = 10, MaxMailCost = 500_000},
-            ["MVP Key Upper Half"] = {MinSend = 10, MaxMailCost = 500_000},
+        FarmSync = {
+            Enabled = false,
+            OriginalID = "",
+            CompletedID = ""
+        },
+        MouseFarm = {
+            Enabled = false,
         }
-
-
     },
-
-
-    PLAYER_TO_MAIL = {"Yurile2501"}, --//INF NICKNAME
-
-    ZONES_WHEN_ACC_MAX = {"DewdropFalls", "TheNest"},
-
-    --//EXAMPLE FOR MultiFarm All location you can choose which you need
-
-    --[[ZONES_WHEN_ACC_MAX = {
-        "DewdropFalls", -- Bluebell Token
-        "TulipHollow", -- Red Token
-        "BlossomVale", -- Pink Token
-        "SunstoneHeights" -- Yellow Token
-    }]]
-
-    LEVEL_FOR_LAST_UPGRADES = {
-        ["Easter2026Egg8CooldownAndAmount"] = 20,
-        ["Easter2026Egg8HatchSpeed"] = 20,
-        ["Easter2026Egg8Luck"] = 20,
-        ["Easter2026Egg8ShinyLuck"] = 20,
-        ["Easter2026Egg8HugeLuck"] = 20,
-        ["Easter2026Egg8TitanicLuck"] = 20,
-    }
-
+    Webhook = {
+        Url = "https://discord.com/api/webhooks/1427232619929669693/eMs_h63iFj7aOadVNq1uDK7-OJH6SKwhU0pdfRj3G3qHDEinlZSkmWnVHUpYXqNF0UCq",
+        Ping = "<@DiscordId>" -- @everyone or Discord ID
+    },
+    Performance = {FPSLock = 10,LowCPU = true}
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/karman4ik881/TeardownMods/refs/heads/main/Phello"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/dc8d11deda163dc93df08a85ba583739.lua"))()
