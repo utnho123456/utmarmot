@@ -17,7 +17,7 @@ getgenv().Config = {
     },
     Webhook = {
         Url = "https://discord.com/api/webhooks/1427232619929669693/eMs_h63iFj7aOadVNq1uDK7-OJH6SKwhU0pdfRj3G3qHDEinlZSkmWnVHUpYXqNF0UCq",
-        Ping = "<@DiscordId>" -- @everyone or Discord ID
+        Ping = "1344518159587348482" -- @everyone or Discord ID
     },
     Performance = {FPSLock = 10,LowCPU = true}
 }
