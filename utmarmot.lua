@@ -16,7 +16,7 @@ getgenv().Config = {
         }
     },
     Webhook = {
-        Url = "https://discord.com/api/webhooks/1427232619929669693/eMs_h63iFj7aOadVNq1uDK7-OJH6SKwhU0pdfRj3G3qHDEinlZSkmWnVHUpYXqNF0UCq",
+        Url = "https://discord.com/api/webhooks/1433488874533032127/hzMslb2rknyiQ5fBwWUp7jHz05mq9Dvrf-L3EHv3cZQ2EVywR8DShOwmj1xwF4JqSjeb",
         Ping = "" -- @everyone or Discord ID
     },
     Performance = {FPSLock = 10,LowCPU = true}
