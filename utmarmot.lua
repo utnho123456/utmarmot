@@ -1,24 +1,21 @@
-script_key = "XTUhpiQBCymyHQHilFaMuEbxHGxDPcPV"
-getgenv().Config = {
-    TargetStand = {"Tusk"},
-    AutoChange = { -- Only one can be set to true.
-        Yummy = {
-            Enabled = true,
-            FilterAcc = true, -- Like Tusk Account only stack on Tusk File
+repeat wait() until game:IsLoaded()
+getgenv().Key = "BRiywy8XeTR78GXlorKhhsRepVPO74NLq5q"
+getgenv().Hide_UI = false -- if true it turns off GUI
+getgenv().LowCPU = false -- Remove All Map Path to Boost FPS
+getgenv().Studio = {
+    ["Bridger Western"] = {
+        ["Webhook"] = {
+            ["Url"] = "https://discord.com/api/webhooks/1427232619929669693/eMs_h63iFj7aOadVNq1uDK7-OJH6SKwhU0pdfRj3G3qHDEinlZSkmWnVHUpYXqNF0UCq", -- Url Webhook
+            ["Ping Notify"] = "@everyone" -- @here or Discord ID
         },
-        FarmSync = {
-            Enabled = false,
-            OriginalID = "",
-            CompletedID = ""
+        ["Misc"] = {
+            ["Yummy Tool"] = true, -- Auto Change Account if has Tusk
+            ["Server"] = {
+                ["Hop"] = true,
+                ["Delay"] = 120, -- Time Delay Next Hop
+            }
         },
-        MouseFarm = {
-            Enabled = false,
-        }
-    },
-    Webhook = {
-        Url = "https://discord.com/api/webhooks/1433488874533032127/hzMslb2rknyiQ5fBwWUp7jHz05mq9Dvrf-L3EHv3cZQ2EVywR8DShOwmj1xwF4JqSjeb",
-        Ping = "" -- @everyone or Discord ID
-    },
-    Performance = {FPSLock = 10,LowCPU = true}
+        ["Lock Fps"] = 10 -- Lock FPS Roblox ( Executor )
+    }
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/dc8d11deda163dc93df08a85ba583739.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Dex-Bear/VxezeHubLoader/refs/heads/main/KaitunBridgerWestern.lua"))()
