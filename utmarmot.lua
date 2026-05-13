@@ -1,6 +1,6 @@
 script_key = "XTUhpiQBCymyHQHilFaMuEbxHGxDPcPV"
 getgenv().Config = {
-    TargetStand = {"Tusk","TuskAlter","STW","DiosTheWorld","TheWorldGreatestHigh","StarFlatinum","OVATheWorld","ChefCrimson","SoftMachine","JellybeanTheWorld","Shadow The World","Zombie The World","Dio The World"},
+    TargetStand = {"Tusk","TuskAlter","STW","DiosTheWorld","TheWorldGreatestHigh","StarFlatinum","OVATheWorld","ChefCrimson","SoftMachine","JellybeanTheWorld","Shadow The World","Zombie The World"},
     AutoChange = { -- Only one can be set to true.
         Yummy = {
             Enabled = true,
