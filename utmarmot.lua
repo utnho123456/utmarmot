@@ -1,6 +1,6 @@
 script_key = "XTUhpiQBCymyHQHilFaMuEbxHGxDPcPV"
 getgenv().Config = {
-    TargetStand = {"Tusk","TuskAlter","STW","DiosTheWorld","TheWorldGreatestHigh","StarFlatinum","OVATheWorld","ChefCrimson","SoftMachine","JellybeanTheWorld"},
+    TargetStand = {"Tusk","TWAU","KingCrimson","TheWorld","StarPlatinum","TuskAlter","STW","DiosTheWorld","TheWorldGreatestHigh","StarFlatinum","OVATheWorld","ChefCrimson","SoftMachine","JellybeanTheWorld"},
     AutoChange = { -- Only one can be set to true.
         Yummy = {
             Enabled = true,
@@ -16,7 +16,7 @@ getgenv().Config = {
         }
     },
     Webhook = {
-        Url = "https://discord.com/api/webhooks/1427232619929669693/eMs_h63iFj7aOadVNq1uDK7-OJH6SKwhU0pdfRj3G3qHDEinlZSkmWnVHUpYXqNF0UCq",
+        Url = "https://discord.com/api/webhooks/1504523117379452948/FW8ewfdvCIG6CB9ZX4gZqAwGrNnWGHYWWDJ4JR4Zq-tz5kkwv4PNpezjIqqbEVndTV2Q",
         Ping = "<@everyone>" -- @everyone or Discord ID
     },
     Performance = {FPSLock = 10,LowCPU = true}
