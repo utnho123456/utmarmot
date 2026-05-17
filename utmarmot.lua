@@ -1,26 +1,46 @@
-script_key = "XTUhpiQBCymyHQHilFaMuEbxHGxDPcPV"
-getgenv().Config = {
-    TargetStand = {"Tusk","TuskAlter","STW","TheWorld","DiosTheWorld","TheWorldGreatestHigh","StarFlatinum","OVATheWorld","ChefCrimson","SoftMachine","JellybeanTheWorld"},
-    AutoChange = { -- Only one can be set to true.
-        Yummy = {
-            Enabled = true,
-            FilterAcc = true, -- Like Tusk Account only stack on Tusk File
-        },
-        FarmSync = {
-            Enabled = false,
-            OriginalID = "",
-            CompletedID = "",
-            ConfigId = ""
-        },
-        MouseFarm = {
-            Enabled = false,
-        }
+script_key="vGoBSjwfYJQxHwrgaQPIXeaUJVgDaqqC";
+getgenv().AOTR = {
+    Raid = {
+        Enabled     = false,
+        Map         = "Chapel",
+        Objective   = "Attack Titan",
+        Difficulty  = "Hard",
+        LevelToRaid = 275,
     },
-    Webhook = {
-        Url = "https://discord.com/api/webhooks/1504523117379452948/FW8ewfdvCIG6CB9ZX4gZqAwGrNnWGHYWWDJ4JR4Zq-tz5kkwv4PNpezjIqqbEVndTV2Q",
-        Ping = "<@>" -- @everyone or Discord ID
+    Modifiers = {
+        ["No Perks"]         = true,
+        ["No Skills"]        = true,
+        ["No Memories"]      = true,
+        ["Nightmare"]        = true,
+        ["Oddball"]          = true,
+        ["Injury Prone"]     = true,
+        ["Chronic Injuries"] = true,
+        ["Fog"]              = true,
+        ["Time Trial"]       = true,
+        ["Glass Cannon"]     = true,
+        ["Boring"]           = false,
+        ["Simple"]           = false,
     },
-    Performance = {FPSLock = 10,LowCPU = true}
+
+    Boosts = {
+        AutoRebuy   = true,
+        MinCanesKeep = 0,  
+        Items = {
+            XP   = { ["30m"] = true, ["1h"] = false, ["2h"] = false },
+            Gold = { ["30m"] = true, ["1h"] = false, ["2h"] = false },
+            Luck = { ["30m"] = true, ["1h"] = false, ["2h"] = false },
+        },
+    },
+
+    AutoPrestige = {
+        Enabled = true,
+        GoldRequired = {
+            [0] = 200000000,   
+            [1] = 400000000,    
+            [2] = 600000000,   
+            [3] = 800000000,    
+            [4] = 1000000000,   
+        },
+    },
 }
-task.delay(180, function() if not getgenv().Loaded then game:GetService("TeleportService"):TeleportToPlaceInstance(game.PlaceId,game.JobId) end end)
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/dc8d11deda163dc93df08a85ba583739.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/d6882ca362327ff6d4b1837fe0e4c809.lua"))()
