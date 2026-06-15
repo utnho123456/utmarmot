@@ -6,30 +6,30 @@ getgenv().GAG2Config = {
     BUY_PET = {  -- ["Pet Name"] = Amount
         ["Monkey"] = 99, 
         ["Bee"] = 99, 
-        ["BlackDragon"] = 99, 
-        ["GoldenDragonfly"] = 99, 
+        ["Black Dragon"] = 99, 
+        ["Golden Dragonfly"] = 99, 
         ["Unicorn"] = 99, 
         ["Raccoon"] = 99, 
-        ["IceSerpent"] = 99,
+        ["Ice Serpent"] = 99,
 
-        ["Robin"] = 5,
-        ["Deer"] = 5,
+        ["Robin"] = 3,
+        ["Deer"] = 3,
     },
 
     EQUIP_PET = {  -- {"Pet Name", Amount to Equip, Priority}
         {"Unicorn", 5, 1}, 
-        {"GoldenDragonfly", 10, 2},
+        {"Golden Dragonfly", 10, 2},
         {"Robin", 5, 3},
         {"Deer", 5, 4},
     },
 
     PLANT_SEED = {  -- ["Seed Name"] = Amount
-        ["Carrot"] = 50, 
-        ["Strawberry"] = 4,
-        ["Blueberry"] = 4,
-        ["Tulip"] = 50,
-        ["Tomato"] = 4,
-        ["Apple"] = 4,
+        ["Carrot"] = 1, 
+        ["Strawberry"] = 0,
+        ["Blueberry"] = 0,
+        ["Tulip"] = 0,
+        ["Tomato"] = 1,
+        ["Apple"] = 1,
         ["Bamboo"] = 50,
         ["Corn"] = 4,
         ["Cactus"] = 4,
@@ -47,16 +47,16 @@ getgenv().GAG2Config = {
         ["Venus Fly Trap"] = 50,
         ["Pomegranate"] = 50,
         ["Poison Apple"] = 50,
-        ["Moon Bloom"] = 50,
-        ["Dragon's Breath"] = 50,
+        ["Moon Bloom"] = 0,
+        ["Dragon's Breath"] = 0,
     },
 
     BUY_SEED = {  -- ["Seed Name"] = Amount
-        ["Carrot"] = 999, 
-        ["Strawberry"] = 999,
-        ["Blueberry"] = 999,
-        ["Tulip"] = 999,
-        ["Tomato"] = 999,
+        ["Carrot"] = 0, 
+        ["Strawberry"] = 0,
+        ["Blueberry"] = 0,
+        ["Tulip"] = 0,
+        ["Tomato"] = 10,
         ["Apple"] = 999,
         ["Bamboo"] = 999,
         ["Corn"] = 999,
@@ -79,9 +79,6 @@ getgenv().GAG2Config = {
         ["Dragon's Breath"] = 999,
     },
 
-    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean" },  -- Only collect fruit when have ANY mutation
-    FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
-
     SELL_ALL_DELAY = 20,
     EXPAND_PLOT = false,
     BUY_GEAR = {},  -- ["Gear Name"] = Amount
@@ -89,8 +86,8 @@ getgenv().GAG2Config = {
     USE_SPRINKLER = {},  -- "Sprinkler Name"
 
     -- Auto Mail
-    AUTO_MAIL_USERNAME = {"Yurile2501"},  -- "Username" (Randomized)
-    AUTO_MAIL_ITEM_NAME = {["Mushroom"] = 10, ["Bamboo"] = 10, ["Rainbow"] = 1, ["Gold"] = 1, ["Raccoon"] = 1, ["Unicorn"] = 1},  -- ["Item Name"] = Amount
+    AUTO_MAIL_USERNAME = {"Yurile2501"},  -- Username (Randomized)
+    AUTO_MAIL_ITEM_NAME = {["Rainbow"] = 1, ["Gold"] = 3, ["Bamboo"] = 7, ["Mushroom"] = 2, ["Black Dragon"] = 1, ["Golden Dragonfly"] = 1, ["Unicorn"] = 1, ["Raccoon"] = 1, ["Ice Serpent"] = 1, ["super sprinkler"] = 1, ["Moon Bloom"] = 1, ["Dragon's Breath"] = 1 },  -- ["Item Name"] = Amount
     COLLECT_MAIL = true,
 
     -- Discord
@@ -98,7 +95,7 @@ getgenv().GAG2Config = {
     WEBHOOK_PET_RARITY = { "Mythic", "Super", "Secret" },
     WEBHOOK_URL = "https://discord.com/api/webhooks/1516080485808210104/nVX9SFhS_OHBYIxsQL5HYd5FhRS-YjcwG6kCleOfOHCbR843MoWYVIa_7fCSknSIyU0X",
     DISCORD_ID = "1344518159587348482",
-    WEBHOOK_NOTE = "",  -- Private Webhook
+    WEBHOOK_NOTE = "Gio",  -- Private Webhook
     SHOW_PUBLIC_DISCORD_ID = true,
     SHOW_WEBHOOK_USERNAME = true,  -- Private Webhook
     SHOW_WEBHOOK_JOBID = true,  -- Private Webhook
