@@ -24,16 +24,16 @@ getgenv().GAG2Config = {
     },
 
     PLANT_SEED = {  -- ["Seed Name"] = Amount
-        ["Carrot"] = 1, 
-        ["Strawberry"] = 0,
-        ["Blueberry"] = 0,
-        ["Tulip"] = 0,
-        ["Tomato"] = 1,
-        ["Apple"] = 1,
+        ["Carrot"] = 10, 
+        ["Strawberry"] = 5,
+        ["Blueberry"] = 5,
+        ["Tulip"] = 5,
+        ["Tomato"] = 5,
+        ["Apple"] = 5,
         ["Bamboo"] = 50,
-        ["Corn"] = 4,
-        ["Cactus"] = 4,
-        ["Pineapple"] = 4,
+        ["Corn"] = 5,
+        ["Cactus"] = 5,
+        ["Pineapple"] = 5,
         ["Mushroom"] = 50,
         ["Green Bean"] = 50,
         ["Banana"] = 50,
@@ -52,10 +52,10 @@ getgenv().GAG2Config = {
     },
 
     BUY_SEED = {  -- ["Seed Name"] = Amount
-        ["Carrot"] = 0, 
-        ["Strawberry"] = 0,
-        ["Blueberry"] = 0,
-        ["Tulip"] = 0,
+        ["Carrot"] = 10, 
+        ["Strawberry"] = 5,
+        ["Blueberry"] = 5,
+        ["Tulip"] = 5,
         ["Tomato"] = 10,
         ["Apple"] = 999,
         ["Bamboo"] = 999,
@@ -79,7 +79,11 @@ getgenv().GAG2Config = {
         ["Dragon's Breath"] = 999,
     },
 
+    COLLECT_PLANT_IF_MUTATED = { "Bamboo", "Mushroom", "Green Bean" },  -- Only collect fruit when have ANY mutation
+    FAVOURITE_FRUIT = {},  -- ["Fruit Name"] = {} ... or ... ["Fruit Name"] = { "Gold", "Rainbow" }
+
     SELL_ALL_DELAY = 20,
+    FOCUS_RAINBOW_GOLD_SEED = true,  -- set true if public server (instant collect), false for slightly slower collect
     EXPAND_PLOT = false,
     BUY_GEAR = {},  -- ["Gear Name"] = Amount
     BUY_CRATE = {},  -- ["Crate Name"] = Amount
