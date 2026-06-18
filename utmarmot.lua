@@ -64,8 +64,8 @@ getgenv().UserConfig = {
         {"Deer", 5, 3},
     },
     ["Expand Plot"] = true,
-    ["Plot Expansions"] = 1,
-    ["Unlock Pet Slots"] = 0,
+    ["Plot Expansions"] = 3,
+    ["Unlock Pet Slots"] = 5,
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
@@ -107,13 +107,12 @@ getgenv().UserConfig = {
         ["Seed"] = {
             ["Rainbow"] = 1,
             ["Gold"] = 2,
-            ["Bamboo"] = 50,
             ["Mushroom"] = 4,
             ["Dragon's Breath"] = 1,
+            ["Bamboo"] = 50,
         },
         ["Gear"] = {
             ["Super Sprinkler"] = 1,
-            ["Super Watering Can"] = 1,
         },
     },
     ["Claim Mail"] = true,
