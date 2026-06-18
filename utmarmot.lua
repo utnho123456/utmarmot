@@ -1,4 +1,4 @@
-setfpscap(7)
+setfpscap(5)
 script_key = "tRdfdNbgjOadczPfrIocaJqMKphaCHoE";
 getgenv().UserConfig = {
     ["FPS Cap"] = 7,
@@ -50,24 +50,22 @@ getgenv().UserConfig = {
         ["Horned Melon"] = {"Rainbow", "Gold"},
     },
     ["Buy Pets"] = {
-        ["Frog"] = {Huge = 99, Rainbow = 99}, -- mua 99 Huge, 99 Rainbow (không mua pet Normal, Big)
-        ["Bunny"] = {Huge = 99, Rainbow = 99},
-        ["Owl"] = {Huge = 99, Rainbow = 99},
-        ["Deer"] = {Huge = 99, Rainbow = 99},
-        ["Robin"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Bee"] = {Big = 99, Huge = 99, Rainbow = 99},
-        ["Monkey"] = 999, -- mua 999 tất cả loại
-        ["Golden Dragonfly"] = 999,
-        ["Unicorn"] = 999,
-        ["Raccoon"] = 999,
-        ["Black Dragon"] = 999,
+                ["Bee"] = 0,
+                        ["Robin"] = 0,
+        ["Monkey"] = 0,
+        ["Black Dragon"] = 99,
+        ["Golden Dragonfly"] = 99,
+        ["Unicorn"] = 0,
+        ["Raccoon"] = 99,
+        ["Ice Serpent"] = 99,
+        ["Deer"] = 5,
     },
     ["Equip Pets"] = {
         {"Deer", 5, 3},
     },
     ["Expand Plot"] = true,
-    ["Plot Expansions"] = 3,
-    ["Unlock Pet Slots"] = 5,
+    ["Plot Expansions"] = 1,
+    ["Unlock Pet Slots"] = 0,
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
         ["Buy Gear"] = {
@@ -109,12 +107,13 @@ getgenv().UserConfig = {
         ["Seed"] = {
             ["Rainbow"] = 1,
             ["Gold"] = 2,
+            ["Bamboo"] = 50,
             ["Mushroom"] = 4,
             ["Dragon's Breath"] = 1,
-            ["Bamboo"] = 50,
         },
         ["Gear"] = {
             ["Super Sprinkler"] = 1,
+            ["Super Watering Can"] = 1,
         },
     },
     ["Claim Mail"] = true,
