@@ -124,6 +124,7 @@ getgenv().UserConfig = {
         },
         ["Gear"] = {
             ["Super Sprinkler"] = 1,
+            ["Super Watering Can"] = 1,
         },
     },
     ["Claim Mail"] = true,
