@@ -85,7 +85,7 @@ getgenv().GAG2Config = {
     SELL_ALL_DAILY_DEAL = true,
     SELL_ALL_DELAY = 20,
     FOCUS_RAINBOW_GOLD_SEED = true,  -- set true if public server (instant collect), false for slightly slower collect
-    EXPAND_PLOT = false,
+    EXPAND_PLOT = 2,
     BUY_GEAR = {},  -- ["Gear Name"] = Amount
     BUY_CRATE = {},  -- ["Crate Name"] = Amount
     USE_SPRINKLER = {},  -- "Sprinkler Name"
