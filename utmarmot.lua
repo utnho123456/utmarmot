@@ -1,4 +1,4 @@
-setfpscap(5)
+setfpscap(7)
 script_key = "tRdfdNbgjOadczPfrIocaJqMKphaCHoE";
 getgenv().UserConfig = {
     ["FPS Cap"] = 7,
