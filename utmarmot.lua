@@ -101,19 +101,19 @@ getgenv().UserConfig = {
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
     ["Webhook Note"] = "",
     ["Discord ID"] = "1344518159587348482",
-        ["Mail To Username"] = {""},
+        ["Mail To Username"] = {"Yuri280221"},
         ["Items To Mail"] = {
             ["Pet"] = {
-                ["Golden Dragonfly"] = {All = 1, To = ""}, 
-                ["Unicorn"] = {All = 1, To = ""},
-                ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = ""},
-                ["Ice Serpent"] = {All = 1, To = ""}, 
+                ["Golden Dragonfly"] = {All = 1, To = "Yuri280221"}, 
+                ["Unicorn"] = {All = 1, To = "Yuri280221"},
+                ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = "Yuri280221"},
+                ["Ice Serpent"] = {All = 1, To = "Yuri280221"}, 
             },
             ["Seed"] = {
-                ["Rainbow"] = {Amount = 1, To = ""},
-                ["Gold"] = {Amount = 2, To = ""}, 
-                ["Bamboo"] = {Amount = 1000, To = ""},
-                ["Mushroom"] = {Amount = 5, To = ""}, 
+                ["Rainbow"] = {Amount = 1, To = "Yuri280221"},
+                ["Gold"] = {Amount = 2, To = "Yuri280221"}, 
+                ["Bamboo"] = {Amount = 1000, To = "Nilia28022021"},
+                ["Mushroom"] = {Amount = 5, To = "Yuri280221"}, 
             },
             ["Gear"] = {
                 ["Super Sprinkler"] = 1, 
