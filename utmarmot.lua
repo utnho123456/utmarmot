@@ -1,5 +1,5 @@
 setfpscap(5)
-script_key = "tRdfdNbgjOadczPfrIocaJqMKphaCHoE";
+script_key="tRdfdNbgjOadczPfrIocaJqMKphaCHoE";
 getgenv().UserConfig = {
     ["Auto Buy Seed"] = true,
     ["Auto Plant Seed"] = true,
@@ -57,9 +57,7 @@ getgenv().UserConfig = {
         ["Moon Bloom"] = 20,
         ["Dragon's Breath"] = 0,
     },
-    ["Favorite"] = {
-        ["Horned Melon"] = {"Rainbow", "Gold"},
-    },
+    ["Favorite"] = {},
     ["Buy Pets"] = { -- ["Pet Name"] = Amount
         ["Monkey"] = 0,
         ["Bee"] = 0,
@@ -82,6 +80,11 @@ getgenv().UserConfig = {
         ["Buy Gear"] = { -- [Gear Name] = Amount
             -- "Common Watering Can",
             "Common Sprinkler",
+            "Uncommon Sprinkler",
+            "Rare Sprinkler",
+            "Legendary Sprinkler",
+            "Super Sprinkler",
+            "Super Watering Can",
         },
         ["Gears To Use"] = {
             -- "Common Watering Can",
@@ -94,33 +97,29 @@ getgenv().UserConfig = {
         },
     },
     ["Webhook URL"] = "https://discord.com/api/webhooks/1516080485808210104/nVX9SFhS_OHBYIxsQL5HYd5FhRS-YjcwG6kCleOfOHCbR843MoWYVIa_7fCSknSIyU0X",
-    ["Webhook Pet Name"] = {"Golden Dragonfly","Unicorn","Raccoon","Monkey","Bee","Ice Serpent","Robin","Deer"},
+    ["Webhook Pet Name"] = {},
     ["Webhook Pet Rarity"] = {"Mythic", "Super", "Secret"},
-    ["Webhook Seed Name"] = {"Rainbow", "Gold"},
-    ["Webhook Note"] = "xx",
+    ["Webhook Note"] = "",
     ["Discord ID"] = "1344518159587348482",
-    ["Mail To Username"] = {""},
-    ["Items To Mail"] = {
-        ["Pet"] = {
-            ["Golden Dragonfly"] = 1,
-            ["Unicorn"] = 1,
-            ["Raccoon"] = 1,
-            ["Monkey"] = 1,
-            ["Bee"] = 5,
-            ["Ice Serpent"] = 1,
-            ["Raccoon"] = 1,
+        ["Mail To Username"] = {"BlastSunrise"},
+        ["Items To Mail"] = {
+            ["Pet"] = {
+                ["Golden Dragonfly"] = {All = 1, To = ""}, 
+                ["Unicorn"] = {All = 1, To = ""},
+                ["Raccoon"] = {Normal = 1, Big = 1, Huge = 1, Rainbow = 1, To = ""},
+                ["Ice Serpent"] = {All = 1, To = ""}, 
+            },
+            ["Seed"] = {
+                ["Rainbow"] = {Amount = 1, To = ""},
+                ["Gold"] = {Amount = 2, To = ""}, 
+                ["Bamboo"] = {Amount = 1000, To = ""},
+                ["Mushroom"] = {Amount = 5, To = ""}, 
+            },
+            ["Gear"] = {
+                ["Super Sprinkler"] = 1, 
+                ["Super Watering Can"] = {Amount = 1, To = ""}, 
+            },
         },
-        ["Seed"] = {
-            ["Rainbow"] = 1,
-            ["Gold"] = 2,
-            ["Dragon's Breath"] = 1,
-            ["Bamboo"] = 1000,
-        },
-        ["Gear"] = {
-            ["Super Sprinkler"] = 1,
-            ["Super Watering Can"] = 1,
-        },
-    },
     ["Claim Mail"] = true,
     ["Auto Plant"] = true,
     ["Limit Auto Plant"] = 800,
