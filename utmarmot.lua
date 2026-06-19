@@ -79,23 +79,18 @@ getgenv().UserConfig = {
     ["Unlock Pet Slots"] = 6, -- Max = 6
     ["Auto Collect Seed Packs"] = true,
     ["Gears"] = {
-        ["Buy Gear"] = {
+        ["Buy Gear"] = { -- [Gear Name] = Amount
             -- "Common Watering Can",
-            -- "Common Sprinkler",
-            -- "Uncommon Sprinkler",
-            -- "Rare Sprinkler",
-            -- "Legendary Sprinkler",
-            -- "Super Sprinkler",
-            -- "Super Watering Can",
+            "Common Sprinkler",
         },
         ["Gears To Use"] = {
             -- "Common Watering Can",
-            -- "Common Sprinkler",
-            -- "Uncommon Sprinkler",
-            -- "Rare Sprinkler",
-            -- "Legendary Sprinkler",
-            -- "Super Sprinkler",
-            -- "Super Watering Can",
+            "Common Sprinkler",
+            "Uncommon Sprinkler",
+            "Rare Sprinkler",
+            "Legendary Sprinkler",
+            "Super Sprinkler",
+            "Super Watering Can",
         },
     },
     ["Webhook URL"] = "https://discord.com/api/webhooks/1516080485808210104/nVX9SFhS_OHBYIxsQL5HYd5FhRS-YjcwG6kCleOfOHCbR843MoWYVIa_7fCSknSIyU0X",
